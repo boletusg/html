@@ -15,6 +15,7 @@ h1{
 }
 p{
 	color: #FFE4E1;
+/*	background-color: maroon;*/
 /*	text-align: center;*/
 }
 .btn{
@@ -25,4 +26,18 @@ p{
 }
 .list{
 	margin-left: 30%;
+}
+.scroll{
+	overflow: auto;
+  width: 420px; /* Ширина блока */
+  height: 300px; /* Высота блока */
+/*  padding: 5px; /* Поля вокруг текста */*/
+}
+/*tr:nth-child (even) {
+
+color:green;
+
+}*/
+p:nth-child(even){
+	color: #2F4F4F;
 }
