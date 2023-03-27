@@ -1,0 +1,45 @@
+    html {
+    background-color: #2F4F4F;
+    }
+    body {
+      text-align: center;
+      margin:0 auto;
+      font-family: Verdana, Arial, sans-serif;
+      font-size: 16px;
+      width: 400px;
+      background-color: #5F9EA0;
+      border: 3px solid black;
+      padding: 0 20px 20px 20px;
+      margin-top: 12%;
+      }
+
+    /* Настраиваем внешний вид поля ввода*/
+    input {
+      display: inline-block;
+      margin: 20px auto;
+      border: 2px solid #eee;
+      padding: 10px 20px;
+      font-family: Verdana, Arial, sans-serif;
+      font-size: 16px;
+    }
+
+    /*Как будет выглядеть каждый элемент нашего списка*/
+    .tdItem {
+      text-align: left;
+      padding: 10px;
+      cursor: default;
+      border-radius: 7px;
+    }
+
+    /*Что произойдёт, когда мы наведём курсор на любую задачу из списка*/
+    .tdItem:hover {
+      background-color: #527a7a;
+    }
+
+    li{
+      color: #FFE4E1;
+    }
+
+    li:nth-child(even){
+    color: #2F4F4F;
+    }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<!-- Служебная часть -->
+
+<head>
+  <title>Список задач</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="test_todo_css.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="test_todo_js.js"></script>
+</head>
+<body>
+  <!-- Началась визуальная часть -->
+  <!-- Ограничиваем ширину списка и ставим его по центру -->
+  <div class="container" style="width: 400px; margin: auto;">
+    <!-- Заголовок списка -->
+    <h2 class="todo__caption">Список задач</h2>
+    <!-- Поле ввода, куда пишем новые задачи -->
+    <div id="tdlApp">
+      <input type="text" class="form-control" placeholder="Новая задача">
+      <!-- Создаём пока ещё пустой список -->
+      <div class="tdlDiv">
+        <ul class="List list-unstyled">
+          <!-- Тут появятся наши задачи, когда мы их добавим -->
+        </ul>
+      </div>
+    </div>
+    <!-- Закончили с оформлением списка -->
+  </div>
+  <!-- Закончилась видимая часть -->
+  <!-- Подключаем JQuery -->
+
+</body>
+
+</html>
